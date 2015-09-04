@@ -39,6 +39,22 @@ while true:
 ```
           
 * display text
+* 
+Code involved to display a screen
+
+````import pygame   // since we are using the library of pygame we need to import it.
+````pygame.init     // This is important for initialising all the pygame modules
+
+// Now let us create a surface called gameDisplay
+
+```gameDisplay = pygame.display.set_mode(1280,1024) // we set the resolution of the screen to be 1280 x 1024
+
+```pygame.display.update() // This function is used to update the entire screen. We we want to make any animations we need the frame to be updated for every change. Hence this function is necessary.
+
+```pygame.quit()
+
+// When we run this program we see that a display just flashes once.
+
 
 
 #### Lesson 2 - goodbye wormy
